@@ -1,0 +1,60 @@
+
+/* FirstInterface.css */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three cards in each row */
+    grid-gap: 20px; /* Adjust this value to set the space between cards */
+  }
+  
+  .card {
+    width: 250px; /* Fixed width for each card */
+    height: 300px; /* Fixed height for each card */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .card-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .edit-button,
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    border-radius: 5px 0 0 0;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    border-radius: 0 5px 0 0;
+  }

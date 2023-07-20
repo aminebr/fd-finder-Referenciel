@@ -1,0 +1,64 @@
+/* Add some basic styling to the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add styling to the "Add New Row" section */
+  .add-row {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+  }
+  
+  .add-row h2 {
+    margin-bottom: 10px;
+  }
+  
+  .add-row input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .add-row button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-row button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add some margin to the top link */
+  .link-back {
+    margin-top: 20px;
+  }
+  
+  /* Center the table and "Add New Row" section */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
